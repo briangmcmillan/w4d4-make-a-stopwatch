@@ -1,0 +1,11 @@
+body {
+  background-color: #77BFA3;
+}
+.watchInputWidth {
+  text-align: center;
+  font-size: xx-large;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 400px;
+}
