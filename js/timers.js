@@ -31,32 +31,32 @@
 // })
 
 //setInterval Start
-var counter = 0
-var timer
+// var counter = 0
+// var timer
+//
+// function increaseCounter() {
+//     counter++
+//     console.log(counter)
+//     stopwatch.innerHTML = counter
+// }
+//
+// function start() {
+//     timer = setInterval(increaseCounter, 1000)//pause
+// }
+//
+// document.getElementById('action').addEventListener('click', function() {
+//     clearInterval(timer)
+//
+//     if (this.innerHTML === 'Paused') {
+//     start()
+//     this.innerHTML = 'Pause'
+// }
+// else {
+//     this.innerHTML = 'Paused'
+// }
+// })
 
-function increaseCounter() {
-    counter++
-    console.log(counter)
-    stopwatch.innerHTML = counter
-}
-
-function start() {
-    timer = setInterval(increaseCounter, 1000)//pause
-}
-
-document.getElementById('action').addEventListener('click', function() {
-    clearInterval(timer)
-
-    if (this.innerHTML === 'Paused') {
-    start()
-    this.innerHTML = 'Pause'
-}
-else {
-    this.innerHTML = 'Paused'
-}
-})
-
-start()
+// start()
 //setInterval Stop
 
 
